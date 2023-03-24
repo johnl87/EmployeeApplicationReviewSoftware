@@ -12,6 +12,11 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
+   <Label text="EARS">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
    <Label text="Email">
       <font>
          <Font size="20.0" />

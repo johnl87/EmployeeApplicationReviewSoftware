@@ -10,7 +10,7 @@ public class Main extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
         //the file is found under resources to edit in scene builder
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("login.fxml"));
         //v is width, v1 is height
         Scene scene = new Scene(fxmlLoader.load(), 620, 240);
         stage.setTitle("Employee Application Review System");
