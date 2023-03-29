@@ -12,7 +12,7 @@ public class Main extends javafx.application.Application {
         //the file is found under resources to edit in scene builder
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("login.fxml"));
         //v is width, v1 is height
-        Scene scene = new Scene(fxmlLoader.load(), 620, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 282, 482);
         stage.setTitle("Employee Application Review System");
         stage.setScene(scene);
         stage.show();

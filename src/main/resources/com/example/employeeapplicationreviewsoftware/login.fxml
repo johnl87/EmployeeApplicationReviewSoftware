@@ -32,6 +32,6 @@
 
     <Label fx:id="welcomeText" />
     <Button onAction="#onHelloButtonClick" text="Login" />
-   <Button layoutX="98.0" layoutY="128.0" onAction="#onHelloButtonClick" text="Reset Password" />
+   <Button layoutX="98.0" layoutY="128.0" onAction="#switchToResetScene" text="Reset Password" />
    <FlowPane prefHeight="200.0" prefWidth="200.0" />
 </VBox>

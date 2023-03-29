@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<TitledPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Welcome " xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <font>
+      <Font size="30.0" />
+   </font>
+   <content>
+      <VBox alignment="TOP_CENTER" prefHeight="482.0" prefWidth="282.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" text="Review Applications">
+               <VBox.margin>
+                  <Insets top="80.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" text="Faculty Search">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets top="80.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </content>
+</TitledPane>
