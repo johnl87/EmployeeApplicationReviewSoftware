@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <TitledPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Welcome " xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <font>
       <Font size="30.0" />
@@ -18,14 +17,20 @@
                <VBox.margin>
                   <Insets top="80.0" />
                </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
             </Button>
             <Button mnemonicParsing="false" text="Faculty Search">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <VBox.margin>
-                  <Insets top="80.0" />
+                  <Insets top="60.0" />
                </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
             </Button>
          </children>
       </VBox>
