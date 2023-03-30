@@ -11,6 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class LoginController {
     @FXML
@@ -35,6 +36,14 @@ public class LoginController {
         scene = new Scene(root);
         stage.setScene(scene);
 
+    }
+
+    public void reset(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("ResetPassword.fxml")));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root, 282, 482);
+        stage.setScene(scene);
+        stage.show();
     }
 
 }
