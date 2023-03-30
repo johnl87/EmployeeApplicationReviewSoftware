@@ -33,7 +33,7 @@ public class AfterLoginController {
     public void faculty(ActionEvent event) throws IOException {
         root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("FacultySearch.fxml")));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root, 282, 482);
+        scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
