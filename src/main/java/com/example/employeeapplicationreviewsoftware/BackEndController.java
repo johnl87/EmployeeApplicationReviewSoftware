@@ -24,14 +24,5 @@ public class BackEndController {
         welcomeText.setText("Welcome to JavaFX19 Application!");
     }
 
-    @FXML
-    public void switchToResetScene(ActionEvent event) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("ResetPassword.fxml"));
-        root_reset = fxmlLoader.load(getClass().getResource("ResetPassword.fxml"));
-        Stage stage = new Stage();
-        stage.setTitle("Reset Password");
-        stage.setScene(new Scene(root_reset, 500, 500));
-        stage.show();
 
-    }
 }

@@ -1,6 +1,8 @@
 package com.example.employeeapplicationreviewsoftware;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -12,7 +14,13 @@ public class ResetPasswordController {
     private Scene scene;
     private Parent parent;
 
-    public void login(ActionEvent event) throws IOException {
-
-    }
+    //@FXML
+    /*public void switchToResetScene(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("ResetPassword.fxml"));
+        root_reset = fxmlLoader.load(getClass().getResource("ResetPassword.fxml"));
+        Stage stage = new Stage();
+        stage.setTitle("Reset Password");
+        stage.setScene(new Scene(root_reset, 500, 500));
+        stage.show();*/
+    //}
 }
