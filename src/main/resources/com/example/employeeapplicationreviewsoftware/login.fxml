@@ -22,16 +22,16 @@
          <Font size="20.0" />
       </font>
    </Label>
-   <TextField />
+   <TextField fx:id="emailBox" />
    <Label prefHeight="0.0" prefWidth="84.0" text="Password">
       <font>
          <Font size="20.0" />
       </font>
    </Label>
-   <TextField prefHeight="30.0" prefWidth="360.0" />
+   <TextField fx:id="passwordBox" prefHeight="30.0" prefWidth="360.0" />
 
     <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" text="Login" />
-   <Button layoutX="98.0" layoutY="128.0" onAction="#switchToResetScene" text="Reset Password" />
+    <Button fx:id="loginBtn" onAction="#onHelloButtonClick" text="Login" />
+   <Button fx:id="resetPasswordBtn" layoutX="98.0" layoutY="128.0" onAction="#switchToResetScene" text="Reset Password" />
    <FlowPane prefHeight="200.0" prefWidth="200.0" />
 </VBox>
