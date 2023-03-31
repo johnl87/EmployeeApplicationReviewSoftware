@@ -57,7 +57,7 @@
       </Button>
       <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="209.0" layoutY="28.0">
          <image>
-            <Image url="@../../../../../../../../OneDrive/Desktop/CAMERA.png" />
+            <Image url="CAMERA.png" />
          </image>
       </ImageView>
    </children>
