@@ -32,11 +32,14 @@
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<VBox prefHeight="224.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="224.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.employeeapplicationreviewsoftware.FacultySearchController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="369.0" prefWidth="400.0" VBox.vgrow="ALWAYS">
          <children>
@@ -50,7 +53,7 @@
             <Label layoutX="79.0" layoutY="127.0" text="Department:" />
             <Button layoutX="215.0" layoutY="185.0" mnemonicParsing="false" text="Search" />
             <Button layoutX="287.0" layoutY="185.0" mnemonicParsing="false" text="Add Member" />
-            <Button layoutX="33.0" layoutY="185.0" mnemonicParsing="false" text="Back" />
+            <Button layoutX="33.0" layoutY="185.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
          </children>
     </AnchorPane>
   </children>
