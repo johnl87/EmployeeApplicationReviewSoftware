@@ -45,5 +45,12 @@ public class LoginController {
         stage.setScene(scene);
         stage.show();
     }
+    public void create(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("CreateAccount.fxml")));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root, 282, 482);
+        stage.setScene(scene);
+        stage.show();
+    }
 
 }

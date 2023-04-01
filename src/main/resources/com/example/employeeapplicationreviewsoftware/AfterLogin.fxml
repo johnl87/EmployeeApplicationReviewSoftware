@@ -9,7 +9,7 @@
 
 <TitledPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Select An Option:" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.employeeapplicationreviewsoftware.AfterLoginController">
    <font>
-      <Font size="30.0" />
+      <Font size="16.0" />
    </font>
    <content>
       <VBox alignment="TOP_CENTER" prefHeight="482.0" prefWidth="282.0">
